@@ -1,33 +1,72 @@
 h1 {
     color: white;
-    background-color: black;
+    background-color: rgb(31, 31, 160);
     text-align: center;
-    font-size: 65px;
+    font-size: 70px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
 
+h1.lasagne {
+    color: white;
+    background-color: rgb(31, 31, 160);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3.lasagne {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4.lasagne {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,
+ol {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link {
-    color: black;
-   
+    color: white;
+    text-decoration: none;
 }
 a:visited {
-    color: black;
-    
+    color: white;
+    text-decoration: none;
 }
 a:hover {
     color: grey;
-   
+    text-decoration: none;
 }
 a:active {
     color: blue;
-   
+    text-decoration: none;
 }
 
 a {
     font-size: 35px;
-
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(31, 31, 160);
     display: inline-block;
     display: -moz-inline-box;
     *display: inline; /* For IE7 */
@@ -39,12 +78,14 @@ a {
 }
 
 img {
-    padding: 10px;
+    padding: 14px;
     height: 600px;
     width: auto;
+    background-color: rgb(31, 31, 160);
 }
 
-.resize img {
+#resize {
     height: auto;
-    width: 200px;
+    width: 500px;
+    background-color: white;
 }
